@@ -1,4 +1,10 @@
+@import 'libs/animate';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
 @import 'base/variables';
+@import 'base/animations';
 
 * {
     font-family: 'Museo Sans', sans-serif;
@@ -20,3 +26,5 @@
 @import 'blocks/catalog';
 @import 'blocks/feedback';
 @import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
